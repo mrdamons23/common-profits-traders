@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Profits - Traders Room</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 3px solid #FFFF00;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            line-height: 1.2;
+        }
+        
+        .logo-common {
+            color: #fff;
+            display: block;
+        }
+        
+        .logo-profit {
+            color: #fff;
+            display: inline;
+        }
+        
+        .logo-dollar {
+            color: #FFFF00;
+            font-size: 52px;
+        }
+        
+        h1 {
+            font-size: 72px;
+            margin: 30px 0;
+            text-shadow: 0 0 30px rgba(255, 255, 0, 0.3);
+            color: #fff;
+            letter-spacing: 3px;
+        }
+        
+        .tagline {
+            font-size: 26px;
+            color: #000;
+            background: #FFFF00;
+            padding: 15px 30px;
+            display: inline-block;
+            font-weight: bold;
+            margin: 30px 0;
+            letter-spacing: 2px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 80px 0;
+        }
+        
+        .feature {
+            background: #111;
+            border: 2px solid #FFFF00;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .feature:hover {
+            box-shadow: 0 0 30px rgba(255, 255, 0, 0.3);
+            transform: translateY(-5px);
+        }
+        
+        .feature h3 {
+            color: #FFFF00;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        
+        .feature p {
+            color: #ccc;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        
+        .cta-button {
+            background: #FFFF00;
+            color: #000;
+            padding: 18px 50px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 40px;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+        }
+        
+        .cta-button:hover {
+            background: #fff;
+            box-shadow: 0 0 40px rgba(255, 255, 0, 0.6);
+            transform: scale(1.05);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 2px solid #FFFF00;
+            margin-top: 80px;
+            color: #999;
+        }
+        
+        footer a {
+            color: #FFFF00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .status-badge {
+            background: #4bb4b3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 15px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .description {
+            font-size: 18px;
+            line-height: 1.8;
+            margin: 40px 0;
+            color: #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 48px; }
+            .logo { font-size: 32px; }
+            .tagline { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-common">COMMON</span>
+                <span class="logo-profit">PROFIT<span class="logo-dollar">$</span></span>
+            </div>
+            <span class="status-badge">🚀 BUILDING...</span>
+        </header>
+        
+        <main>
+            <h1>TRADERS ROOM</h1>
+            <p class="tagline">GROUPCHAT & TRADING TOOLS</p>
+            
+            <p class="description">
+                Professional derivatives trading platform with real-time charts, collaborative group chat, and advanced trading tools. 
+                Trade options, multipliers, and accumulators with confidence.
+            </p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>📊 Real-Time Charts</h3>
+                    <p>Advanced candlestick and line charts with SmartCharts integration for precise market analysis.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>💬 Group Chat</h3>
+                    <p>Collaborate with fellow traders, share insights, and discuss strategies in real-time.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🎯 Multiple Assets</h3>
+                    <p>Trade options, multipliers, accumulators with flexible leverage options.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📈 Portfolio Tracking</h3>
+                    <p>Monitor positions, trade history, and performance reports in one dashboard.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔒 Secure Trading</h3>
+                    <p>OAuth2 authentication with enterprise-grade security for your account.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📱 Mobile Ready</h3>
+                    <p>PWA support - install and trade from any device, anywhere, anytime.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 60px 0;">
+                <button class="cta-button">Coming Soon</button>
+                <p style="color: #999; margin-top: 30px; font-size: 16px; line-height: 1.8;">
+                    <strong>Repository Status:</strong> Active Development<br>
+                    <strong>Platform:</strong> White-Label Derivatives Trading<br>
+                    <strong>Tech Stack:</strong> React 18 • TypeScript • MobX • Webpack<br>
+                    <strong>Base:</strong> Deriv dtrader-template
+                </p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Common Profits. All rights reserved.</p>
+            <p style="margin-top: 15px; font-size: 14px;">
+                <a href="https://github.com/mrdamons23/common-profits-traders" target="_blank">
+                    📍 View Repository on GitHub →
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
