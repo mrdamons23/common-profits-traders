@@ -1,0 +1,33 @@
+{
+    "brand_name": "Common Profits",
+    "brand_logo": "brand/platform-logo.svg",
+    "brand_logo_dark": "brand/platform-logo.svg",
+    "brand_domain": "commonprofits.com",
+    "brand_hostname": {
+        "staging": "staging.traders.commonprofits.com",
+        "production": "traders.commonprofits.com"
+    },
+    "platform": {
+        "name": "Traders Room",
+        "description": "Professional derivatives trading platform with real-time charts, group chat & advanced trading tools.",
+        "logo": "brand/platform-logo.svg",
+        "home_url": "https://commonprofits.com/dashboard",
+        "help_centre_url": "https://commonprofits.com/help"
+    },
+    "colors": {
+        "primary": "#FFFF00",
+        "secondary": "#000000",
+        "tertiary": "#FFFFFF",
+        "success": "#4bb4b3",
+        "danger": "#ec3f3f",
+        "warning": "#ffad3a",
+        "info": "#2196f3",
+        "neutral": "#999999",
+        "black": "#000000",
+        "white": "#ffffff"
+    },
+    "features": {
+        "dark_mode": true,
+        "language_switcher": false
+    }
+}
